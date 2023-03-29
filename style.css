@@ -45,3 +45,33 @@ label{
     background: #000;
     height: 30px;
 }
+
+/* media queries */
+
+@media (max-width: 768px) {
+
+    .left,
+    .right {
+        flex-basis: 100%;
+    }
+
+    textarea {
+        height: 20%;
+        font-size: 16px;
+    }
+
+    iframe {
+        height: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    textarea {
+        height: 20%;
+        font-size: 14px;
+    }
+
+    iframe {
+        height: 80%;
+    }
+}
